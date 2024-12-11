@@ -31,6 +31,7 @@ dependencies = [
  "nom",
  "num",
  "pico-args",
+ "rle_vec",
  "tinyjson",
 ]
 
@@ -531,6 +532,12 @@ checksum = "4722d768eff46b75989dd134e5c353f0d6296e5aaa3132e776cbdb56be7731aa"
 dependencies = [
  "bitflags",
 ]
+
+[[package]]
+name = "rle_vec"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7a14622f24cef977254293d3ff9571eb70e3b37c9bee038910c597b635860401"
 
 [[package]]
 name = "rustc-demangle"
